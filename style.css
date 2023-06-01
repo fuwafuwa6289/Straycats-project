@@ -6,7 +6,7 @@ body{
     display: flex;
     /*border: 1px solid red ;*/
     background-color: #fff;
-    color: #000;
+    color: #6C4027;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo{
@@ -28,7 +28,7 @@ ul li{
     margin: 0 1rem;
 }
 ul li a{
-    color: #000;
+    color: #6C4027;
     text-decoration: none;
 }
 header{
