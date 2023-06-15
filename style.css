@@ -78,28 +78,72 @@ header{
     border-radius: 2px;
     
 }
+.headline{
+    font-family: 'Itim', cursive;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+   
+}
+
 .teams{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+  
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    
+
 }
 .teams-items{
-    /* border:1px solid red;*/
-    padding: 2rem;
-    background: #fff;
-    color: #000;
-    text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 320px;
+   height: auto;
+   background-color: #f9f9f9;
+   border-radius: 20px;
+   box-shadow:  0 5px 14px rgba(0, 0,0, 0,0.25),0 5px 5px rgba(0, 0,0, 0,0.22);
+   padding: 1rem;
+   margin: 1rem;
+   transform: all  0.2s ease-in;
+   font-family: 'Itim', cursive;
+   
+
 }
 .teams-items img{
-    width: 150px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
-    box-shadow:  0 0 10px #333;
+    display: block;
+ 
+    
 }
+.teams-items h3{
+   
+    text-align: center;
+    margin-top: 0rem;
+    
+}
+.teams-items p{
+   
+    text-align: center;
+    margin-top: 0rem;
+    line-height:23px
+    
+}
+
 .teams-items a{
     text-decoration: none;
     color: #000;
-    background: #fff;
+    background: #F7C67E;
     padding: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Itim', cursive;
+
 }
 footer{
     background: #000;
@@ -110,7 +154,7 @@ footer{
 }
 .navbar_footer{
     display: flex;
-    border: 1px solid red ;
+   
     
 }
 .navbar_footer p{
@@ -124,7 +168,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-     border:1px solid red;
+    
 }
 .navbar_footer ul{
     width: 50%;
@@ -132,7 +176,7 @@ footer{
     justify-content: right;
     align-items: center;
     list-style: none;
-    border:1px solid red;
+   
 }
 .navbar_footer ul li{
    margin: 0 1rem;
